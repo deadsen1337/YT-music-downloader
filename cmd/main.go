@@ -23,7 +23,7 @@ func main() {
 	var err error
 	dsn := fmt.Sprintf("host=%s port=%d user=%s dbname=%s password=%s sslmode=%s",
 		utils.GoDotEnvVariable("DB_IP"),
-		6666,
+		5555,
 		"postgres",
 		utils.GoDotEnvVariable("DB_NAME"),
 		utils.GoDotEnvVariable("DB_PASS"),
